@@ -17,6 +17,11 @@ scenario:
   t_step: 1.0
 
 strategies: [random, hubs, temporal]
+
+network:
+  kind: csv
+  path: petster.csv
+  
 ---
 
 # Task — reproduce Fig. 7
@@ -51,10 +56,6 @@ unmitigated baseline. It is not a candidate and cannot win.
 ## The network
 
 Petster social network (2426 nodes).
-
-network:
-  kind: csv
-  path: petster.csv
   
 ## Provenance
 
