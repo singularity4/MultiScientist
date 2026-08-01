@@ -52,6 +52,10 @@ unmitigated baseline. It is not a candidate and cannot win.
 
 Petster social network (2426 nodes).
 
+network:
+  kind: csv
+  path: petster.csv
+  
 ## Provenance
 
 Fig. 7: beta = 0.03, gamma = 0.01, T_0 = 3, T_0 + tau = 13 so delta_t = 10,
