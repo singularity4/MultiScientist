@@ -2,7 +2,7 @@
 
 ## How to run the code
 
-Requires numpy, scipy and networkx. The three agent roles are run using Claude Code: run each role as a separate agent, with `HEARTBEAT-<role>.md` as its instructions. 
+Requires numpy, scipy and networkx. The three agent roles are run using Claude Code: run each role as a separate agent, with `HEARTBEAT-<role>.md` as its instructions.
 Roles cannot see each other's context.
 
 ---
@@ -23,6 +23,7 @@ HEARTBEAT-evaluator.md
 HEARTBEAT-observer.md
 task/TASK.md
 task-profile.md
+proposals/
 logs/
 ```
 
@@ -35,24 +36,18 @@ PROFILE SETTING: `cycle_order`
 Default order, one scenario per cycle:
 
 **1a. Analyst.** Start the analyst agent with `HEARTBEAT-analyst.md`.
-It reads the log and appends one proposal to `logs/proposals.jsonl`.
+It reads the log and writes one proposal to `proposals/current.json`.
 
 If it writes no proposal, the run is over. Go to step 3.
 
-**1b. Evaluator.** 
+**1b. Evaluator.**
 
 PROFILE SETTING: `evaluate_dispatch`
 
-Start the evaluator with `HEARTBEAT-evaluator.md`. It reads the pending
-proposal, evaluates it, and appends one `ExperimentRecord`.
+Start the evaluator with `HEARTBEAT-evaluator.md`. It reads the proposal,
+evaluates it, appends one `ExperimentRecord`, and clears the proposal.
 
-<!-- **1c. Record.** PROFILE SETTING: `champion_promotion`
-
-     Not used in this task: the evaluator has already appended the record and
-     there is nothing to promote. Kept for a task that searches over best
-     candidates. -->
-
-**1d. Observer.** Start the observer with `HEARTBEAT-observer.md`. It
+**1c. Observer.** Start the observer with `HEARTBEAT-observer.md`. It
 reads the logs and writes an `[AUDIT]`.
 
 It is read-only: no other role reads its output, and the loop is correct
