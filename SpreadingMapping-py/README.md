@@ -93,9 +93,9 @@ checked to reproduce full recomputation exactly.
 For Fig. 7, on a Barabási–Albert network with β = 0.5, γ = 0.2, t₀ = 1, Δt = 2,
 m = 0.2 N: doses still unspent when immunity takes effect are ≈ 15.0
 (temporal), 13.0 (random), 9.9 (hubs), so hubs waste the most; with instant
-immunity hubs is far the best, and with the delay modelled it is never best.
+immunity hubs is the best, and with the time delay it is never best.
 
-The port has also been run on the Petster network at the paper's Fig. 7
+The code has also been run on the Petster network at the paper's Fig. 7
 parameters (β = 0.03, γ = 0.01, T₀ = 3, T₀ + τ = 13, m = 0.2 N, source node 10),
 reproducing the published results.
 
