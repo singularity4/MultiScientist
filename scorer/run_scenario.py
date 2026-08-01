@@ -45,7 +45,7 @@ def build_network(spec: dict[str, Any]) -> tuple[Any, dict[int, int]]:
     Args:
         spec: The `network` block from the frontmatter, e.g.
               {kind: barabasi_albert, n: 200, m: 2, seed: 4}, or
-              {kind: csv, path: petster-hamster.csv} for an edge list.
+              {kind: csv, path: data/petster.csv} for an edge list.
 
     Returns:
         (A, index_of) — sparse adjacency matrix (CSR, float), and a mapping from
