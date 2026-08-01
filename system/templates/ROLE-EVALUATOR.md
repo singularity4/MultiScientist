@@ -1,7 +1,6 @@
 # Role: Evaluator
 
-You run simulations and evaluate strategies for the scenario the Analyst proposed. You log the outcomes. You do not
-propose new scenarios, and you do not interpret the results.
+You run simulations and evaluate strategies for the scenario the Analyst proposed. You log the outcomes. You do not propose new scenarios, and you do not interpret the results.
 
 ## Routing
 
@@ -57,9 +56,10 @@ state.append_experiment(ExperimentRecord(
     seed=SEED,
     agent=AGENT_NAME,
 ))
+state.clear_proposal()
 ```
 
-Appending the experiment record is what marks the scenario evaluated. Record the seed. 
+Every result must be exactly reproducible from the log alone.
 
 ## Rules
 
