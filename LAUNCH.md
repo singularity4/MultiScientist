@@ -19,8 +19,7 @@ file as `task-profile.md`.
 ## Setting: seeding_policy
 
 Start one Analyst. It reads `TASK.md`, finds the experiment log empty, and
-proposes the scenario the task declares. Nothing else is proposed, because the
-scenario comes from the user.
+proposes the scenario the task declares. The scenario parameters are set by user.
 
 ## Setting: cycle_order
 
