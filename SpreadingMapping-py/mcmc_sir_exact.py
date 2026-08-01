@@ -1,5 +1,5 @@
 """
-Rejection-free Gibbs sampler.
+Rejection-free Gibbs sampler over the exact ensemble.
 
 """
 
