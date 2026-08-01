@@ -39,7 +39,9 @@ It reads the log and appends one proposal to `logs/proposals.jsonl`.
 
 If it writes no proposal, the run is over. Go to step 3.
 
-**1b. Evaluator.** PROFILE SETTING: `evaluate_dispatch`
+**1b. Evaluator.** 
+
+PROFILE SETTING: `evaluate_dispatch`
 
 Start the evaluator with `HEARTBEAT-evaluator.md`. It reads the pending
 proposal, evaluates it, and appends one `ExperimentRecord`.
