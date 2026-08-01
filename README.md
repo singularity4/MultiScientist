@@ -6,7 +6,6 @@ MultiScientist is a multi-agent LLM team that simulates SIR spreading processes 
 > Simulating SIR processes on networks using weighted shortest paths.
 > *Scientific Reports* **8**, 6562 (2018).
 > [doi:10.1038/s41598-018-24648-w](https://doi.org/10.1038/s41598-018-24648-w)
-> [arXiv:1612.08629](https://arxiv.org/abs/1612.08629)
 
 ---
 
