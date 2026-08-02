@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1000" width="1800" height="1000" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="champ" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3A2378"/><stop offset="100%" stop-color="#5734A8"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5B3BC4"/></marker>
+    <marker id="arrowSm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#A995E0"/></marker>
+  </defs>
+  <rect width="1800" height="1000" fill="#FAF8F4"/>
+
+  <text x="60" y="72" font-size="47" font-weight="700" fill="#171223" letter-spacing="-1">MultiScientist</text>
+  <text x="60" y="116" font-size="23" fill="#6B6478">Multi-agent LLM team for simulating and evaluating time-critical immunization strategies on complex networks.</text>
+
+  <rect x="60" y="200" width="290" height="330" rx="18" fill="#FFFFFF" stroke="#E8E3DC" stroke-width="1.5"/>
+  <text x="90" y="243" font-size="15" font-weight="700" fill="#6B4BD6" letter-spacing="1.6">THE SETUP</text>
+  <g stroke="#3E2A8C" stroke-width="3.4" fill="none" stroke-linecap="round">
+    <path d="M126 285 h64 l22 22 v76 h-86 z"/><path d="M190 285 v22 h22"/>
+    <path d="M146 337 h44 M146 355 h44 M146 373 h26"/>
+  </g>
+  <text x="90" y="435" font-size="27" font-weight="700" fill="#171223">The scenario</text>
+  <text x="90" y="468" font-size="16" fill="#6B6478">
+    <tspan x="90" dy="0">How fast the disease</tspan>
+    <tspan x="90" dy="23">spreads, how many doses,</tspan>
+    <tspan x="90" dy="23">and the contact network</tspan>
+  </text>
+
+  <line x1="368" y1="365" x2="400" y2="365" stroke="#5B3BC4" stroke-width="7" marker-end="url(#arrow)"/>
+
+  <rect x="418" y="200" width="472" height="330" rx="18" fill="#FFFFFF" stroke="#E8E3DC" stroke-width="1.5"/>
+  <text x="448" y="243" font-size="15" font-weight="700" fill="#6B4BD6" letter-spacing="1.6">1 — DECIDE WHAT TO RUN</text>
+
+  <rect x="448" y="298" width="196" height="146" rx="12" fill="#F0EBFB" stroke="#DDD3F5" stroke-width="1.5"/>
+  <g transform="translate(546,342)" stroke="#3E2A8C" stroke-width="3.4" fill="none" stroke-linecap="round">
+    <circle cx="0" cy="0" r="14"/><path d="M10 10 L20 20"/></g>
+  <text x="546" y="394" font-size="16" font-weight="700" fill="#171223" text-anchor="middle" letter-spacing="0.8">CASE A</text>
+  <text x="546" y="418" font-size="15" fill="#6B6478" text-anchor="middle">One Analyst proposes</text>
+
+  <rect x="664" y="298" width="196" height="146" rx="12" fill="#F0EBFB" stroke="#DDD3F5" stroke-width="1.5"/>
+  <g fill="#3E2A8C"><circle cx="734" cy="342" r="11"/><circle cx="762" cy="342" r="11"/><circle cx="790" cy="342" r="11"/></g>
+  <text x="762" y="394" font-size="16" font-weight="700" fill="#171223" text-anchor="middle" letter-spacing="0.8">CASE B</text>
+  <text x="762" y="418" font-size="15" fill="#6B6478" text-anchor="middle">Three Analysts</text>
+  <text x="762" y="437" font-size="14" fill="#8B8399" text-anchor="middle">deliberate together</text>
+
+  <text x="448" y="483" font-size="27" font-weight="700" fill="#171223">Analyst Agent</text>
+  <text x="448" y="512" font-size="16" fill="#6B6478">Uses the scenario exactly as the scientist wrote it</text>
+
+  <line x1="908" y1="365" x2="940" y2="365" stroke="#5B3BC4" stroke-width="7" marker-end="url(#arrow)"/>
+
+  <rect x="958" y="200" width="330" height="330" rx="18" fill="#FFFFFF" stroke="#E8E3DC" stroke-width="1.5"/>
+  <text x="988" y="243" font-size="15" font-weight="700" fill="#6B4BD6" letter-spacing="1.6">2 — RUN IT</text>
+  <g stroke="#3E2A8C" stroke-width="3.4" fill="none" stroke-linecap="round">
+    <rect x="1088" y="288" width="72" height="86" rx="9"/><path d="M1102 308 h44"/>
+    <path d="M1104 332 h6 M1121 332 h6 M1138 332 h6 M1104 352 h6 M1121 352 h6 M1138 352 h6"/>
+  </g>
+  <text x="988" y="435" font-size="27" font-weight="700" fill="#171223">Evaluator Agent</text>
+  <text x="988" y="468" font-size="16" fill="#6B6478">
+    <tspan x="988" dy="0">Simulates the epidemic and</tspan>
+    <tspan x="988" dy="23">evaluates every strategy</tspan>
+  </text>
+
+
+  <rect x="1356" y="200" width="330" height="330" rx="18" fill="#FFFFFF" stroke="#E8E3DC" stroke-width="1.5"/>
+  <text x="1386" y="243" font-size="15" font-weight="700" fill="#6B4BD6" letter-spacing="1.6">3 — EXPLAIN IT</text>
+  <g stroke="#3E2A8C" stroke-width="3.4" fill="none" stroke-linecap="round">
+    <path d="M1487 372 v-30 M1509 372 v-56 M1531 372 v-74"/><path d="M1475 372 h68"/></g>
+  <text x="1386" y="435" font-size="27" font-weight="700" fill="#171223">Analyst Agent</text>
+  <text x="1386" y="468" font-size="16" fill="#6B6478">
+    <tspan x="1386" dy="0">Says which strategy won,</tspan>
+    <tspan x="1386" dy="23">by how much, and why</tspan>
+  </text>
+
+  <line x1="1183" y1="556" x2="1183" y2="588" stroke="#5B3BC4" stroke-width="7" marker-end="url(#arrow)"/>
+  <line x1="1581" y1="588" x2="1581" y2="556" stroke="#5B3BC4" stroke-width="7" marker-end="url(#arrow)"/>
+
+  <rect x="1130" y="614" width="504" height="152" rx="18" fill="url(#champ)"/>
+  <g stroke="#FFFFFF" stroke-width="3.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1164" y="666" width="62" height="62" rx="9"/><path d="M1179 697 l13 13 l20 -26"/></g>
+  <text x="1600" y="659" font-size="15" font-weight="700" fill="#C3B2F0" text-anchor="end" letter-spacing="1.6">THE RESULT</text>
+  <text x="1600" y="700" font-size="27" font-weight="700" fill="#FFFFFF" text-anchor="end">Time-critical strategies</text>
+  <text x="1600" y="729" font-size="16" fill="#BFAEEC" text-anchor="end">Outbreak size on a contact network</text>
+
+
+  <g stroke="#B9A9E8" stroke-width="2.6" stroke-dasharray="7 8" fill="none">
+    <path d="M540 548 V 826" marker-end="url(#arrowSm)"/>
+    <path d="M1060 548 V 826" marker-end="url(#arrowSm)"/>
+  </g>
+
+  <rect x="60" y="838" width="1128" height="118" rx="18" fill="#FFFFFF" stroke="#E8E3DC" stroke-width="1.5"/>
+  <text x="92" y="880" font-size="15" font-weight="700" fill="#6B4BD6" letter-spacing="1.6">SHARED MULTI-AGENT STATE</text>
+  <text x="92" y="915" font-size="18" font-weight="700" fill="#171223">The run directory</text>
+  <g stroke="#E8E3DC" stroke-width="1.5">
+    <line x1="392" y1="866" x2="392" y2="928"/><line x1="590" y1="866" x2="590" y2="928"/>
+    <line x1="800" y1="866" x2="800" y2="928"/><line x1="1000" y1="866" x2="1000" y2="928"/>
+  </g>
+  <g font-size="17" font-weight="700" fill="#2A2338">
+    <text x="422" y="905">Scenario</text><text x="620" y="905">Proposals</text>
+    <text x="830" y="905">Results</text><text x="1030" y="905">Activity</text>
+  </g>
+
+  <path d="M1196 897 H 1252" fill="none" stroke="#5B3BC4" stroke-width="3.6" marker-end="url(#arrow)"/>
+  <path d="M1500 770 V 830" fill="none" stroke="#B9A9E8" stroke-width="2.6" stroke-dasharray="7 8" marker-end="url(#arrowSm)"/>
+
+  <rect x="1268" y="838" width="418" height="118" rx="18" fill="#F0EBFB" stroke="#DDD3F5" stroke-width="1.5"/>
+  <g transform="translate(1330,897)" stroke="#3E2A8C" stroke-width="3.2" fill="none" stroke-linecap="round">
+    <path d="M-26 0 C -14 -17, 14 -17, 26 0 C 14 17, -14 17, -26 0 z"/><circle cx="0" cy="0" r="7.5"/></g>
+  <text x="1380" y="884" font-size="25" font-weight="700" fill="#171223">Observer Agent</text>
+  <text x="1380" y="912" font-size="16" fill="#6B6478">Reports what happened</text>
+  <text x="1380" y="936" font-size="15" fill="#8B8399">Watches the run without taking part</text>
+
+</svg>
