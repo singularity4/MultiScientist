@@ -8,6 +8,8 @@ MultiScientist is a multi-agent LLM team that simulates SIR spreading processes 
 > [doi:10.1038/s41598-018-24648-w](https://doi.org/10.1038/s41598-018-24648-w)
 
 ---
+![MultiScientist architecture](docs/image.svg)
+
 
 ## Agent architecture
 
