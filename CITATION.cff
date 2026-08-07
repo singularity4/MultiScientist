@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use MultiScientist, please cite this repository."
+title: "MultiScientist"
+authors:
+  - family-names: "Tolic"
+    given-names: "Dijana"
+version: 1.0.0
+date-released: 2026-08-07
+license: CC-BY-NC-4.0
+type: software
